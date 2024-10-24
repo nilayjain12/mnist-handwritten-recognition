@@ -7,7 +7,7 @@ import io
 # Load the pre-trained model using Keras
 model = load_model('model.h5')
 
-app = Flask(__name__, template_folder=r'C:\Users\nilay\OneDrive - Cal State Fullerton (1)\Desktop\NILAY-TO-JOB-DATA\SPRING 2024\Job Preperation Learning\FOR LEARNING\TensorFlow and Keras\app\template')
+app = Flask(__name__, template_folder='template')
 
 @app.route('/')
 def index():
